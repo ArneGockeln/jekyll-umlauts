@@ -16,7 +16,7 @@ When the jekyll site is generated all umlauts will be converted to html.
 # Installation as gem
 ```
 gem install jekyll-umlauts
-``
+```
 
 # Updating jekyll-umlauts
 ```
