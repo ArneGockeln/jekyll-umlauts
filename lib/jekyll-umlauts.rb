@@ -11,13 +11,13 @@ module Jekyll
     priority :highest
 
     def generate(site)
-      puts "\nReplace umlauts"
+      puts "\nReplacing umlauts"
 
       site.pages.each do |page|
         page.content = replace(page.content)
       end
 
-      site.posts.each do |post|
+      site.posts.docs.each do |post|
         post.content = replace(post.content)
       end
     end
