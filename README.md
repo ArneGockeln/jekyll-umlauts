@@ -5,7 +5,7 @@ When the jekyll site is generated all umlauts will be converted to html.
 ü = &uuml; Ü = &Uuml;
 ä = &auml; Ä = &Auml;
 ö = &ouml; Ö = &Ouml;
-ß = &szlig;
+ß = &szlig; ẞ = &#7838;
 ```
 
 # Installation as plugin
