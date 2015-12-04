@@ -4,7 +4,7 @@
 # ö = &ouml; Ö = &Ouml;
 # ß = &szlig; ẞ = &#7838;
 # Author: Arne Gockeln
-# Website: http://www.arnegockeln.com
+# Website: http://www.Webchef.de
 module Jekyll
   class UmlautsGenerator < Generator
     safe true
