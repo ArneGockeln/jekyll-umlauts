@@ -1,11 +1,11 @@
 # Umlauts Generator for Jekyll
-This generator converts all umlauts äÄöÖüÜ and ß in its correct html equivalent.
+This generator converts all umlauts äÄöÖüÜ and ßẞ in its correct html equivalent.
 When the jekyll site is generated all umlauts will be converted to html.
 ```html
 ü = &uuml; Ü = &Uuml;
 ä = &auml; Ä = &Auml;
 ö = &ouml; Ö = &Ouml;
-ß = &szlig;
+ß = &szlig; ẞ = &#7838;
 ```
 
 # Installation as plugin

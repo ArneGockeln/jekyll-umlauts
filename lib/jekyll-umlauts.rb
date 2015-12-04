@@ -2,7 +2,7 @@
 # ü = &uuml; Ü = &Uuml;
 # ä = &auml; Ä = &Auml;
 # ö = &ouml; Ö = &Ouml;
-# ß = &szlig;
+# ß = &szlig; ẞ = &#7838;
 # Author: Arne Gockeln
 # Website: http://www.arnegockeln.com
 module Jekyll
@@ -30,6 +30,7 @@ module Jekyll
       content.gsub!(/ä/, '&auml;')
       content.gsub!(/Ä/, '&Auml;')
       content.gsub!(/ß/, '&szlig;')
+      content.gsub!(/ẞ/, '&#7838;')
 
       content
     end
