@@ -20,6 +20,10 @@ module Jekyll
       site.posts.docs.each do |post|
         post.content = replace(post.content)
       end
+
+      site.documents.each do |document|
+        document.content = replace(document.content)
+      end
     end
 
     def replace(content)
